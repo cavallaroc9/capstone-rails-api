@@ -2,5 +2,5 @@
 
 class Place < ApplicationRecord
   belongs_to :user
-  validates :title, :city, :country, presence: true
+  validates :title, :country, presence: true
 end
